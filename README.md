@@ -1,11 +1,11 @@
 # vue-charts [![Package Quality](http://npm.packagequality.com/shield/hchs-vue-charts.svg)](http://packagequality.com/#?package=hchs-vue-charts)
-Base on **Vue2**, wrapper for **ChartJs**.    
+Based on **Vue2**, wrapper for **ChartJs**.    
 - [Vue js](https://vuejs.org/)  
 - [Chart js](http://www.chartjs.org/)  
-- Work well with [Laravel](https://laravel.com/)  
+- Works well with [Laravel](https://laravel.com/)  
 
 
-# Render a Chart Easily  
+# Render Charts Easily  
 - Single Line
 ![](https://raw.githubusercontent.com/hchstera/vue-charts/master/pictures/easy_use.png)  
 - Multiple Bar
@@ -15,8 +15,8 @@ Base on **Vue2**, wrapper for **ChartJs**.
 
 # Features  
 - Single Chart   
-- Multiple Chart   
-- [Multiple Mix Chart](http://vue-charts.hchspersonal.tk/mixcharts)    
+- Multiple Charts   
+- [Multiple Mix Charts](http://vue-charts.hchspersonal.tk/mixcharts)    
 - [Override Datasets](http://vue-charts.hchspersonal.tk/line#datasets)    
 - [Override Option](http://vue-charts.hchspersonal.tk/line#option)    
 - [Pass Json data](http://vue-charts.hchspersonal.tk/passjson)    
@@ -169,6 +169,15 @@ or
 5.Done
 ![](https://raw.githubusercontent.com/hchstera/vue-charts/master/pictures/welcome_demo.PNG)     
 
+# Import into Single File Components (Webpack)
+
+```
+import Vue from 'vue';
+import 'chart.js';
+import 'hchs-vue-charts';
+
+Vue.use(window.VueCharts);
+```
 
 # Thanks  
 [@yeknava](https://github.com/yeknava) - Horizontal Bar    
